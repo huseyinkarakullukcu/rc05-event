@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import Event from "./components/1-Events/Event";
+import Counter from "./components/2-classComponent/Counter";
+import UseStateObject from "./components/3-useStateCounter/useStateObject";
+import UseStateCounter from "./components/3-useStateCounter/UseStatuCounter";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Event /> */}
+      {/* <Counter /> */}
+      {/* <UseStateCounter /> */}
+      <UseStateObject />
     </div>
   );
 }
